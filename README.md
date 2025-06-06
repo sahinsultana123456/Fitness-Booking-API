@@ -51,7 +51,7 @@ python manage.py runserver
 
 ## API Endpoints
 
-### GET `/classes/`
+### GET `api/classes/`
 
 Returns a list of upcoming fitness classes.
 
@@ -95,7 +95,7 @@ Returns a list of upcoming fitness classes.
 
 ---
 
-### POST `/book/`
+### POST `api/book/`
 
 Book a spot in a fitness class.
 
@@ -137,7 +137,7 @@ Book a spot in a fitness class.
 
 ---
 
-### GET `/bookings/`
+### GET `api/bookings/`
 
 Get all bookings made by a specific email address.
 
