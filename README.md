@@ -36,7 +36,12 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 4. Run the server
+### 4. Load sample data (optional)
+```bash
+python manage.py loaddata sample_data.json
+```
+
+### 5. Run the server
 
 ```bash
 python manage.py runserver
